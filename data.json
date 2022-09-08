@@ -1,0 +1,28 @@
+{
+  "dataset": [
+    {
+      "quote":"xyz1",
+      "author":"abc1",
+      "year":2022,
+      "photo":"/photo.jpg"
+    },
+    {
+      "quote":"xyz2",
+      "author":"abc2",
+      "year":2002,
+      "photo":"/photo.jpg"
+    },
+    {
+      "quote":"xyz3",
+      "author":"abc3",
+      "year":2020,
+      "photo":"/photo.jpg"
+    },
+    {
+      "quote":"xyz4",
+      "author":"abc4",
+      "year":2019,
+      "photo":"/photo.jpg"
+    }
+  ]
+}
