@@ -1,0 +1,145 @@
+@charset "utf-8";
+#mainBackground{
+  width:100%;
+  height:100%;
+  max-height: 100%;
+  margin:0;
+  padding:0 ;
+  background-image:url("background.jpeg");
+}
+
+@font-face {
+font-family : 'Open Sans';
+font-style : normal;
+font-weight : 300;
+font-stretch : normal;
+font-display : swap;
+src : url(https://fonts.gstatic.com/s/opensans/v29/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsiH0C4n.ttf) format('truetype');
+}
+@font-face {
+font-family : 'Shadows Into Light';
+font-style : normal;
+font-weight : 400;
+font-display : swap;
+src : url(https://fonts.gstatic.com/s/shadowsintolight/v15/UqyNK9UOIntux_czAvDQx_ZcHqZXBNQDcg.ttf) format('truetype');
+}
+html {
+    font-family: helvetica, arial, verdana, sans-serif;
+}
+
+p {
+    font-size:16px;
+    line-height:150%;
+}
+
+li {
+  color:rgb(178, 34, 34);
+    font-size: 20px;
+}
+
+figure {
+    display: block;
+    width: 420px;
+}
+
+figcaption {
+    font-size: 0.875em;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    margin-top: 0.5em;
+}
+
+/* multiple tag selectors*/
+
+img, video, embed {
+    max-width: 100%;
+}
+hr {border-color:red;
+  width:100%;
+   }
+h1,h2 {
+    color:rgb(178, 34, 34);
+    font-family: 'Open Sans';
+    text-align: center;
+}
+.bor-color{
+  background:whitesmoke;
+  border-color:blue;
+  border-style:solid;
+}
+/*descendant tag selectors*/
+
+nav{ 
+  background-color: red;
+    display:inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+nav a{
+  background-color: #111;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav logo{
+    box-shadow: 1px 1px 15px #999999;
+}
+
+p > span {
+    font-weight: bold;
+}
+
+/*id selectors*/
+
+.content{
+   background-color:rgb(25, 25, 112);
+  color:pink;
+    font-weight: bolder;
+    text-align: center;
+  font-family:'Shadows Into Light', cursive;
+}
+
+.image_border {
+    border: 3px solid blue;
+}
+
+.floatleft {
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.Footer {
+  display:block;
+    float: right;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.roundedCorners {
+    border: 0;
+    vertical-align: middle;
+    border-radius: 50px;
+    margin-bottom: 5px;
+    margin-right: 15px;
+}
+
+.centered {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+}
+.not-found{
+  text-align: center;
+}
+.not-found a{
+  color:blue;
+  text-decoration: underline;
+}

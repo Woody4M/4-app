@@ -1,0 +1,35 @@
+
+.container{
+  box-sizing: border-box;
+}
+
+main, footer, {
+  padding: 0.5rem;
+}
+title{
+  color:white;
+  padding-bottom:20px;
+  text-align: center;
+}
+.text{
+  color:red;
+}
+.btn {
+  background-color: #333;
+  color: #ddd;
+  text-align: center;
+  border-bottom: 1px solid #fff;
+}
+
+main{
+  background-color:pink;
+      border-left: solid black 1px;
+  border-right: solid black 1px;
+}
+footer {
+  background-color: #333;
+  color: #ddd;
+  text-align: center;
+  border-bottom: 1px solid #fff;
+}
+
